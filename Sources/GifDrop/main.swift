@@ -43,10 +43,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         }
 
         if failures.isEmpty {
-            showAlert(
-                title: "GIF Conversion Complete",
-                message: "Converted \(successCount) file(s) successfully. GIFs were saved next to the source files."
-            )
+//             showAlert(
+//                 title: "GIF Conversion Complete",
+//                 message: "Converted \(successCount) file(s) successfully. GIFs were saved next to the source files."
+//             )
             return
         }
 
